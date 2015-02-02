@@ -3,4 +3,4 @@ class Badge
     @title = title
   bindEvents: ->
     if @title is ''
-      # do something
+      alert 'Hello world!'
