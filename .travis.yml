@@ -7,6 +7,6 @@ before_script:
   - psql -c 'create database my_app_test' -U postgres
   - "cp ./.travis.database.yml ./config/database.yml"
 script: 
-  bundle exec rake db:schema:load
-  bundle exec rake db:test:prepare
-  bundle exec rspec
+  - bundle exec rake db:schema:load
+  - bundle exec rake db:test:prepare
+  - bundle exec rspec

@@ -3,5 +3,4 @@ test:
   database: my_app_test
   username: postgres
   password:
-cucumber:
-  <<: *test
+
