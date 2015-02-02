@@ -10,3 +10,10 @@ scss:
   enabled: true
   config_file: config/scss.yml
 
+Style/StringLiterals:
+  Description: 'Checks if uses of quotes match the configured preference.'
+  Enabled: false
+  EnforcedStyle: single_quotes
+  SupportedStyles:
+    - single_quotes
+    - double_quotes
