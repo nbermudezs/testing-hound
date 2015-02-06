@@ -52,5 +52,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
 end
 
+gem 'codeclimate-test-reporter', group: :test, require: nil
+
 gem 'rubocop'
 gem 'devise'
